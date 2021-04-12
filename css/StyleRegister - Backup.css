@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+body{
+    font-family: "DM Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background: linear-gradient(
+        to right,
+        #FFFFFF 0%,
+        #FFFFFF 50%,
+        #FFC448 50%,
+        #FFC448 100%,
+    )
+}
+
+.PenghiasRegister{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 10.625%;
+    top: 25.78125%;
+}
+
+#TulisanUsername{
+    position: absolute;
+    width: 7.78%;
+    height: 3.02734375%;
+    left: 55.278%;
+    top:  34.3046875%;
+    font-size: 0.8467cm;
+    line-height: 3.02734375%;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#TulisanPassword{
+    position: absolute;
+    width: 7.3612%;
+    height: 2.15278%;
+    left: 55.278%;
+    top: 47%;
+    font-size: 0.8467cm;
+    line-height: 3.02734375%;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#TulisanRegister{
+    position: absolute;
+    width: 15%;
+    height: 5%;
+    left: 67%;
+    top: 64.45%;
+    font-style:normal;
+    font-weight: bold;
+    font-size:0.8467cm;
+    line-height: 3.02734375%;
+}
+
+#Welcome{
+    position: absolute;
+    width: 70%;
+    height: 8.10546875%;
+    left: 23.54167%;
+    top: 5%;
+    font-style:normal;
+    font-weight: 500;
+    font-size: 85.34px;
+    line-height: 8.10546875%;
+    color: #303030;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#Please{
+    position: absolute;
+    width: 36.25%;
+    height: 6.0546875%;
+    left:  39.25%;
+    top: 15%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 6.0546875%;
+}
+
+input[type=text]{
+    position: absolute;
+    width: 36.12%;
+    height: 6.8359375%;
+    left:  55.278%;
+    top: 37.109375%;
+    background: #EADBA2;
+    border-radius:20px;
+  }
+  
+  input[type=password]{
+    position: absolute;
+    width: 36.12%;
+    height: 6.8369375%;
+    left:  55.278%;
+    top:   49.8046875%;
+    background: #EADBA2;
+    border-radius:20px;
+  }
+
+  input[type=submit]{
+      position: absolute;
+      width: 36.12%;
+      height: 6.8359375%;
+      left: 55.278%;
+      top: 61.1328125%;
+      background: #7AB5FB;
+      border-radius:20px;
+  }
+
+  @media screen and (max-width: 1000px) {
+      .container{
+          width: 100%;
+      }
+  }
