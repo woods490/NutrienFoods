@@ -14,6 +14,7 @@ body {
   font-family: "DM Sans", sans-serif;
   width: 100%;
   height: 100%;
+  background: no-repeat;
 }
 .formweight {
   height: fit-content;
