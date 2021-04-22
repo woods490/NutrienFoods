@@ -1,0 +1,48 @@
+.nav-link{
+    color: #14416b;
+    font-size: 20px;
+}
+.navbar{
+    background-color: #fff;
+    box-shadow: 6px 6px 16px 4px rgba(155, 152, 152, 0.15);
+}
+.signUp{
+    background-color: #f88d32;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 12px;
+    font-size: 20px;
+}
+.imgOne img {
+    width: 400px;
+    background-color: #14416b;
+    border-radius: 30px;
+}
+.title {
+    font-size: 48px;
+}
+.captionKu {
+    /* width: 80%; */
+    font-size: 20px;
+}
+
+.one {
+    background-color: #CBF3DC;
+    border: 3px solid #B2D9C2;
+    border-radius: 12px;
+}
+.two {
+    background-color: #F5E9DF;
+    border: 3px solid #F4D7BE;
+    border-radius: 12px;
+
+}
+.three {
+    background-color: rgba(88, 241, 228, 0.3) ;
+    border: 3px solid #58F1E4;
+    border-radius: 12px;
+
+}
+.row{
+    gap: 10px;
+}
