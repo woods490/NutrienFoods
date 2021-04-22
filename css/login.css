@@ -1,128 +1,69 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@font-face{
+    font-family:'FontMain';
+    src: url('../DMSans/DMSans-Regular.ttf')
 }
 
 body{
-    background: linear-gradient(
-        90deg,
-        #FFFFFF 0%,
-        #FFFFFF 50%,
-        #FFC448 50%,
-        #FFC448 100%
-    );
-    font-family: "DM Sans", sans-serif;
+    font-family: 'FontMain';
+}
+
+.phone-bg{
+    background-color: hsl(41, 100%, 80%);
+}
+
+#lgn-btn{
     width: 100%;
-    height: 100vh;
 }
 
-.header{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    padding-top: 4.203125%;
-}
-
-.content{
-    display: flex;
-    flex-direction: row;
-    gap: 7%;
-    width: 100%
-}
-
-.kiri{
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    padding-top: 1%;
-    padding-left: 8%;
-    width: 50%;
-}
-
-.gambar{
-    width: 100%;
-    height: auto;
-}
-
-.kanan{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    height: 100%;
-}
-
-.formlogin{
-    display: flex;
-    flex-direction: column;
-    gap: 21px;
-    padding-top: 12%;
-}
-
-.form-field{
-    width:96.2962962962963%;
-    height: fit-content;
-}
-
-.label{
-    font-size: 24px;
-}
-
-.input{
-    width: 100%;
-    height: 60px;
-}
-
-input[type=text]{
-    width: 100%;
-    height: 100%;
-    background: #EADBA2;
-    border-color: transparent;
-    padding: 14px 10px;
-    border-radius: 20px;
-    font-size: 15px;
-}
-
-input[type=password]{
-    width: 100%;
-    height: 100%;
-    background: #EADBA2;
-    border-color: transparent;
-    padding: 14px 10px;
-    border-radius: 20px;
-    font-size: 15px;
-}
-
-.button{
-    width:100%;
-    height: 60px;
-    margin-top: 35px;
-}
-
-button[type=submit]{
-    width: 96.2962962962963%;
-    height: 100%;
-    background: #7AB5FB;
-    border-color: transparent;
-    border-radius: 20px;
-    font-size: 22px;
-    color: #F9F8F4;
-    font-weight: bold;
-}
-
-.Register{
+.rgstr-link{
     text-decoration: none;
 }
 
-.Register #Reg.Text{
-    font-style: normal;
-    font-weight: 500;
-    line-height:100%;
-    color: #1B3BAE;
-    text-decoration: none;
+.bg-lgn-form{
+    background-color: #EADBA2;
+    border-radius: 20px;
 }
+
+.bg-card-rgstr{
+    background-color: #f88d32;
+    border-radius: 20px;
+}
+
+@media only screen and (min-width: 1200px){
+    .phone{
+        display: none;
+    }
+
+    .desktop{
+        background: linear-gradient(
+            90deg,
+            #FFFFFF 0%,
+            #FFFFFF 50%,
+            #FFC448 50%,
+            #FFC448 100%
+        );
+    }
+
+    .img-penghias{
+        width: 500px;
+        height: 500px;
+    }
+
+    .bg-lgn-form-desktop{
+        background-color: #EADBA2;
+    }
+
+    .cstm-mt{
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .desktop-laptop{
+        display: none;
+    }
+}
+
+
+
+
