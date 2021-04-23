@@ -66,7 +66,7 @@
                     <button type="submit" class="btn btn-primary self-align-center text-white mt-2" id="lgn-btn">
                         <h4>LOGIN</h4>
                     </button>
-                    <small id="login-text" class="form-text">Didn't Have An Account? <a class="rgstr-link text-blue" href="https://nutrienfoods.xyz/register/register.html">Register</a></small>
+                    <small id="login-text" class="form-text">Didn't Have An Account? <a class="rgstr-link text-blue" href="https://nutrienfoods.xyz/register.php">Register</a></small>
                 </form>
             </div>
         </div>

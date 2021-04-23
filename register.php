@@ -54,7 +54,7 @@
                         <button type="submit" class="btn btn-primary self-align-center text-white mt-2" id="rgstr-btn">
                             <h5>REGISTER</h5>
                         </button>
-                        <h5 id="login-text" class="form-text">Already Have An Account? <a class="lgn-link text-blue" href="https://nutrienfoods.xyz/login/login.html">Login</a></h5>
+                        <h5 id="login-text" class="form-text">Already Have An Account? <a class="lgn-link text-blue" href="https://nutrienfoods.xyz/login.php">Login</a></h5>
                     </form>
                 </div>
             </div>
@@ -102,7 +102,7 @@
                     <button type="submit" class="btn btn-primary self-align-center text-white mt-2" id="rgstr-btn">
                         <h4>REGISTER</h4>
                     </button>
-                    <small id="login-text" class="form-text">Already Have An Account? <a class="lgn-link text-blue" href="https://nutrienfoods.xyz/login/login.html">Login</a></small>
+                    <small id="login-text" class="form-text">Already Have An Account? <a class="lgn-link text-blue" href="https://nutrienfoods.xyz/login.php">Login</a></small>
                 </form>
             </div>
         </div>

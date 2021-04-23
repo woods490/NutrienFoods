@@ -20,22 +20,22 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid ">
             <a class="navbar-brand fw-bolder" href="#" style="color: #14416b;">NutrienFoods</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fa fa-bars"></i>
             </button>
-            <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active fw-bold" aria-current="page" href="./index.php">Home</a>
+                        <a class="nav-link fw-bold hvr-underline-from-center" aria-current="page" href="./index.php">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-bold" href="#">Menu</a>
+                        <a class="nav-link fw-bold hvr-underline-from-center" href="index.php">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-bold" href="#">Contact</a>
+                        <a class="nav-link fw-bold hvr-underline-from-center" href="#">Contact</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-bold" href="#">About Us</a>
+                        <a class="nav-link fw-bold hvr-underline-from-center" href="about.php">About Us</a>
                     </li>
                 </ul>
                 <div class="d-flex">
@@ -69,7 +69,7 @@
                     </div>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     <div class="d-flex justify-content-between">
-                        <p class="font-weight-bold align-text-bottom text-info">Stabil Weigt</p>
+                        <p class="font-weight-bold align-text-bottom text-info">Stable Weigt</p>
                         <button class="buttonBuy text-center text-light font-weight-bold">Buy Now</button>
                     </div>
                 </div>
@@ -130,7 +130,7 @@
                     </div>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     <div class="d-flex justify-content-between">
-                        <p class="font-weight-bold align-text-bottom text-info">Stabil Weigt</p>
+                        <p class="font-weight-bold align-text-bottom text-info">Stable Weigt</p>
                         <button class="buttonBuy text-center text-light font-weight-bold">Buy Now</button>
                     </div>
                 </div>
